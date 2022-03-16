@@ -1,0 +1,8 @@
+ -- 2993) Mais Frequente --
+
+
+SELECT AMOUNT AS most_frequent_value
+FROM VALUE_TABLE 
+GROUP BY AMOUNT
+ORDER BY COUNT(AMOUNT) DESC
+LIMIT 1;

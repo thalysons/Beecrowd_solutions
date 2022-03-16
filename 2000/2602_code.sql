@@ -1,0 +1,3 @@
+-- 2602) Select Básico --
+
+SELECT NAME FROM CUSTOMERS WHERE STATE = 'RS';

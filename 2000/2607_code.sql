@@ -1,0 +1,6 @@
+-- 2607) Cidades em Ordem Alfabética  --
+
+SELECT 
+	DISTINCT CITY
+FROM PROVIDERS 
+ORDER BY CITY ASC;

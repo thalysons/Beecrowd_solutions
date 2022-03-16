@@ -1,0 +1,10 @@
+-- 2613) Filmes em Promoção --
+
+SELECT 
+	A.ID,
+	A.NAME
+FROM MOVIES AS A
+LEFT JOIN PRICES AS B
+ON A.ID_PRICES = B.ID
+WHERE B.VALUE < 2;
+
