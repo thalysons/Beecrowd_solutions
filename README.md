@@ -4,7 +4,7 @@ Demonstro nele meu desenvolvimento em bancos de dados e análises.
 
 
 ### Linguagens utilizadas até o momento:
-- SQL/ pgSQL
+- SQL/ postgreSQL
 
   
 ### Link Beecrowd:
